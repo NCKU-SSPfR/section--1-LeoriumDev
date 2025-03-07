@@ -2,7 +2,7 @@ FROM python:3.11-slim
 
 WORKDIR /web
 
-COPY ./web
+COPY . /web
 
 RUN pip install --no-cache-dir Flask
 
