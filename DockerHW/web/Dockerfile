@@ -4,7 +4,7 @@ WORKDIR /web
 
 COPY ./web
 
-RUN pip install --no-cache-dir -r /app/requirements.txt
+RUN pip install --no-cache-dir Flask
 
 EXPOSE 5000
 
